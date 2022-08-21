@@ -1,0 +1,78 @@
+.body {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-height: none;
+  max-width: 100%;
+  min-height: auto;
+  min-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.imagecover {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.button-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: opacity 700ms ease;
+  transition: opacity 700ms ease;
+  font-family: Inconsolata, monospace;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.button {
+  background-color: #2e2f30;
+}
+
+.button:hover {
+  border: 1px solid #000;
+  background-color: #f7fafc;
+  color: #080808;
+}
